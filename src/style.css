@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Anek Telugu', sans-serif;
+}
+
+
+
+#navbar li {
+    position: relative;
+}
+
+#navbar li::before {
+    content: '';
+    height: 3px;
+    background: orange;
+    width: 20%;
+    position: absolute;
+    bottom: 0;
+    top: 22px;
+}
+
+#navbar li:hover::before {
+    width: 100%;
+    transition: .5s ease-in-out;
+}
+
+.hero {
+    background-image: url('./img/landingbg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+
+
+.shadow-all-side {
+    box-shadow: 0 0 8px gainsboro;
+}
+
+.hero-svg {
+
+    fill: #6366f1;
+    color: #3e1f92;
+}
+
+.hover-shadow:hover{
+    box-shadow: 0 0 8px honeydew;
+}
+.curv-svg {
+    fill: #27272a;
+}
+
+.curv-svg2{
+
+    fill: #6366f1;
+
+}
+.curv-svg3{
+
+    fill: #18181b;
+}
+.elementor-shape-fill {
+    fill: #18181b;
+    fill: #27272a;
+}
+
+.triangle-svg {
+    fill: #6366f1;
+}
+
+.csbg {
+    background-image: url('./img/csgobg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+
+}
+
+
+.circle-list li {
+    position: relative;
+    margin-bottom: 13px;
+    padding-left: 30px;
+}
+
+.circle-list li::before {
+    position: absolute;
+    content: '';
+    height: 15px;
+    width: 15px;
+    border: 2px solid orange;
+    border-radius: 100%;
+    top: 3px;
+    left: 0;
+}
+
+.circle-div {
+    position: relative;
+    padding: 0 15px;
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+
+.circle-div::before {
+    position: absolute;
+    content: "";
+    border: 5px solid #ff2b01;
+    height: 90%;
+    width: 70%;
+    top: 0;
+    margin: 0 auto;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.circle-div ::after {
+    clear: both;
+}
+
+.clear-both {
+    clear: both;
+}
+
+label {
+    font-weight: 600;
+    /* color: ; */
+}
+
+input,
+textarea {
+    outline: none;
+    padding: 8px;
+    border-radius: 4px;
+    color: gray;
+}
+
+
+#industries {
+    background-image: url('/src/img/csgobg-1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+
+}
+
+#industries::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #1a1b26;
+    opacity: .8;
+}
+
+@media screen and (max-width:560px) {
+    .circle-div::before {
+        display: none;
+    }
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(207, 198, 198);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #c4b9b9;
+}

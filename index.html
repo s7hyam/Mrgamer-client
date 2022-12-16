@@ -1,0 +1,877 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Fontawesome Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+            integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="/dist/output.css">
+        <link rel="stylesheet" href="./src/style.css">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <header class="z-40 relative w-full hero top-0 ">
+            <nav class="flex justify-between  py-8 px-4 [max-width:1200px] m-auto ">
+                <a href="#hero" class="font-bold text-orange-500 text-3xl relative z-50 logo">MrGamer</a>
+                <button id="navbtn" class="md:hidden text-blue-100 block relative z-50"><i
+                        class="fa-solid  fa-bars"></i></button>
+                <ul id="navbar"
+                    class="md:flex bg-zinc-900 opacity-90 text-white flex-col md:flex-row absolute hidden md:relative top-16 md:top-0 [height:100vh] md:[height:auto] left-0 md:gap-0 shadow-xl sm:shadow-none bg-zinck-800 px-4  md:px-0 md:bg-transparent z-50">
+                    <li class="mx-4 md:my-0 my-4  text-lg hover:text-gray-200"><a href="#hero">Home</a></li>
+                    <li class="mx-4 md:my-0 my-4  text-lg hover:text-gray-200"><a href="#services">Services</a></li>
+                    <li class="mx-4 md:my-0 my-4  text-lg hover:text-gray-200"><a href="#industries">Industries</a></li>
+                    <li class="mx-4 md:my-0 my-4  text-lg hover:text-gray-200"><a href="#proccess">Proccess</a></li>
+                    <li class="mx-4 md:my-0 my-4  text-lg hover:text-gray-200"><a href="#">Our App</a></li>
+                    <li class="mx-4 md:my-0 my-4  text-lg hover:text-gray-200 "><a href="#contact">Contact</a></li>
+                </ul>
+
+            </nav>
+            <div id="hero" class="z-20 relative">
+                <div
+                    class="p-4 [max-width:1200px] m-auto sm:py-24 flex flex-col-reverse md:flex-row justify-between items-center">
+
+                    <div class="flex flex-col my-4 gapy-4   sm:leading-3">
+                        <h1 class="md:text-5xl sm:text-4xl text-3xl sm:font-bold font-black my-4 text-orange-500">
+                            Excellent
+                            game! but, is it
+                            <br class="md:block hidden">
+                            <span class="text-white">
+                                bug-free??
+                            </span>
+
+                        </h1>
+                        <p class="font-semibold text-2xl text-gray-300 mb-4">Find out through game testing!</p>
+                        <button
+                            class="py-3 px-8 self-start border-2  border-white duration-300 ease-linear  bg-orange-500 hover:bg-transparent  text-white  font-bold">Test
+                            Now!</button>
+                    </div>
+
+                    <div class="overflow-hidden">
+                        <img src="./src/img/Mob-png.png" class="onload-popup max-h-52 sm:max-h-96" alt="">
+                    </div>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" class="rotate-180 relative -bottom-1"
+                preserveAspectRatio="none">
+                <path class="hero-svg" opacity="0.33"
+                    d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z">
+                </path>
+                <path class="hero-svg" opacity="0.66"
+                    d="M734,67.3c-45.5,0-77.2-23.2-129.1-39.1c-28.6-8.7-150.3-10.1-254,39.1 s-91.7-34.4-149.2,0C115.7,118.3,0,39.8,0,39.8V0h1000v36.5c0,0-28.2-18.5-92.1-18.5C810.2,18.1,775.7,67.3,734,67.3z">
+                </path>
+                <path class="hero-svg"
+                    d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z">
+                </path>
+            </svg>
+
+        </header>
+
+        <section class="advantage-div bg-indigo-500 text-gray-200 overflow-hidden relative py-10">
+
+
+            <div class="md:grid md:grid-cols-2 p-4 items-center [max-width:1200px] m-auto pb-10">
+                <div class="z-10 place-self-center md:block hidden fade-left">
+                    <div class=" [width:420px] [height:200px] text-center p-5 rounded-md  border-2 border-white">
+                        <img src="./src/img/advantages.png"
+                            class="[width:420px] onload-popup [height:200px]  rounded-md [margin-top:-58px]" alt="">
+                    </div>
+                </div>
+                <div class="z-20 relative onload-up  ">
+                    <h2 class="text-3xl font-bold  mb-5 text-white">Advantages of our game testing service</h2>
+                    <ul class="circle-list p-5 rounded-md font-semibold">
+                        <li class="">Detailed bug report</li>
+                        <li class="">Detailed quality check</li>
+                        <li class="">UX (user experience testing)</li>
+                        <li class="">Will check all the functionalities of the game</li>
+                        <li class="">Complete performance evaluation</li>
+                        <li class="">Graphical element inspection</li>
+                        <li class="">Playthrough testing for analysing the game flow</li>
+                        <li class="">Audio testing</li>
+                    </ul>
+                </div>
+            </div>
+
+
+        </section>
+
+        <section class="bg-zinc-800 cricle-section  fade-left-see">
+            <svg xmlns="http://www.w3.org/2000/svg" class=" " viewBox="0 0 1000 100" preserveAspectRatio="none">
+                <path class="triangle-svg" d="M761.9,44.1L643.1,27.2L333.8,98L0,3.8V0l1000,0v3.9"></path>
+            </svg>
+            <div class="[max-width:1200px] m-auto p-1 relative z-20 py-16">
+                <div>
+                    <h2 class="sm:text-3xl text-2xl text-center py-10 font-bold text-blue-50">Our quality assurance
+                        process in game
+                        testing</h2>
+                </div>
+
+                <div class="md:[margin-left:25%] md:w-1/2 text-white text-center font-semibold m-auto  relative">
+
+                    <div class="circle-div">
+
+                        <div class=" w-full  z-10 text-center qlt-asr my-2.5 relative ">
+                            <div
+                                class="p-2.5 m-auto my-2 sm:my-0 sm:w-48 bg-purple-700  rounded-md opacity-90  -mt-6 float-none shadow-sm relative z-10 text-center ">
+                                <p>Game Rules and Logic Understaning</p>
+                            </div>
+                        </div>
+
+                        <div class=" w-full float-left my-2.5 rounded-md">
+                            <div
+                                class="sm:float-left sm:[width:40%] my-2 sm:my-0 relative rounded-md  p-2.5 z-10 bg-purple-700">
+                                <p>Compatability Testing and Complaiance Testing </p>
+                            </div>
+                            <div
+                                class="sm:float-right sm:[width:40%] my-2 sm:my-0 rounded-md relative bg-purple-700 z-10 p-2.5">
+                                <P>Test Case Genration</P>
+                            </div>
+                        </div>
+
+                        <div class=" w-full float-left my-2.5 rounded-md">
+                            <div
+                                class="sm:float-left sm:[width:40%] my-2 sm:my-0 relative rounded-md p-2.5 z-10 bg-purple-700">
+                                <p>Performance Testing Client and Server
+
+                                </p>
+                            </div>
+                            <div
+                                class="sm:float-right sm:[width:40%] my-2 sm:my-0 rounded-md relative bg-purple-700 z-10 p-2.5">
+                                <P>Module Based Test Execution</P>
+                            </div>
+                        </div>
+
+                        <div class=" w-full float-left my-2.5 rounded-md">
+                            <div
+                                class="sm:float-left sm:[width:40%] my-2 sm:my-0 relative rounded-md p-2.5 z-10 bg-purple-700">
+                                <p>Regression Testing
+
+                                </p>
+                            </div>
+                            <div
+                                class="sm:float-right sm:[width:40%] my-2 sm:my-0 rounded-md relative bg-purple-700 z-10 p-2.5">
+                                <P>Integration Testing
+
+                                </P>
+                            </div>
+                        </div>
+
+                        <div class=" w-full float-left  my-2.5 relative z-10 rounded-md">
+                            <div
+                                class="p-2.5 sm:w-48 bg-purple-700  my-2 sm:my-0 float-none m-auto rounded-md opacity-90   shadow-sm relative z-10 text-center ">
+                                <p>Game Results/Reports points, payouts, bonus and winning calculation Testing
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="clear-both">
+
+            </div>
+
+        </section>
+
+
+        <section id="services" class="px-1 bg-zinc-900  text-gray-400 py-20 pt-0">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.5 27.8" preserveAspectRatio="none"
+                class=" relative  z-40 ">
+                <path class="curv-svg "
+                    d="M283.5,9.7c0,0-7.3,4.3-14,4.6c-6.8,0.3-12.6,0-20.9-1.5c-11.3-2-33.1-10.1-44.7-5.7	s-12.1,4.6-18,7.4c-6.6,3.2-20,9.6-36.6,9.3C131.6,23.5,99.5,7.2,86.3,8c-1.4,0.1-6.6,0.8-10.5,2c-3.8,1.2-9.4,3.8-17,4.7	c-3.2,0.4-8.3,1.1-14.2,0.9c-1.5-0.1-6.3-0.4-12-1.6c-5.7-1.2-11-3.1-15.8-3.7C6.5,9.2,0,10.8,0,10.8V0h283.5V9.7z M260.8,11.3	c-0.7-1-2-0.4-4.3-0.4c-2.3,0-6.1-1.2-5.8-1.1c0.3,0.1,3.1,1.5,6,1.9C259.7,12.2,261.4,12.3,260.8,11.3z M242.4,8.6	c0,0-2.4-0.2-5.6-0.9c-3.2-0.8-10.3-2.8-15.1-3.5c-8.2-1.1-15.8,0-15.1,0.1c0.8,0.1,9.6-0.6,17.6,1.1c3.3,0.7,9.3,2.2,12.4,2.7	C239.9,8.7,242.4,8.6,242.4,8.6z M185.2,8.5c1.7-0.7-13.3,4.7-18.5,6.1c-2.1,0.6-6.2,1.6-10,2c-3.9,0.4-8.9,0.4-8.8,0.5	c0,0.2,5.8,0.8,11.2,0c5.4-0.8,5.2-1.1,7.6-1.6C170.5,14.7,183.5,9.2,185.2,8.5z M199.1,6.9c0.2,0-0.8-0.4-4.8,1.1	c-4,1.5-6.7,3.5-6.9,3.7c-0.2,0.1,3.5-1.8,6.6-3C197,7.5,199,6.9,199.1,6.9z M283,6c-0.1,0.1-1.9,1.1-4.8,2.5s-6.9,2.8-6.7,2.7	c0.2,0,3.5-0.6,7.4-2.5C282.8,6.8,283.1,5.9,283,6z M31.3,11.6c0.1-0.2-1.9-0.2-4.5-1.2s-5.4-1.6-7.8-2C15,7.6,7.3,8.5,7.7,8.6	C8,8.7,15.9,8.3,20.2,9.3c2.2,0.5,2.4,0.5,5.7,1.6S31.2,11.9,31.3,11.6z M73,9.2c0.4-0.1,3.5-1.6,8.4-2.6c4.9-1.1,8.9-0.5,8.9-0.8	c0-0.3-1-0.9-6.2-0.3S72.6,9.3,73,9.2z M71.6,6.7C71.8,6.8,75,5.4,77.3,5c2.3-0.3,1.9-0.5,1.9-0.6c0-0.1-1.1-0.2-2.7,0.2	C74.8,5.1,71.4,6.6,71.6,6.7z M93.6,4.4c0.1,0.2,3.5,0.8,5.6,1.8c2.1,1,1.8,0.6,1.9,0.5c0.1-0.1-0.8-0.8-2.4-1.3	C97.1,4.8,93.5,4.2,93.6,4.4z M65.4,11.1c-0.1,0.3,0.3,0.5,1.9-0.2s2.6-1.3,2.2-1.2s-0.9,0.4-2.5,0.8C65.3,10.9,65.5,10.8,65.4,11.1	z M34.5,12.4c-0.2,0,2.1,0.8,3.3,0.9c1.2,0.1,2,0.1,2-0.2c0-0.3-0.1-0.5-1.6-0.4C36.6,12.8,34.7,12.4,34.5,12.4z M152.2,21.1	c-0.1,0.1-2.4-0.3-7.5-0.3c-5,0-13.6-2.4-17.2-3.5c-3.6-1.1,10,3.9,16.5,4.1C150.5,21.6,152.3,21,152.2,21.1z">
+                </path>
+                <path class="elementor-shape-fill"
+                    d="M269.6,18c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C267.7,18.8,269.7,18,269.6,18z">
+                </path>
+                <path class="elementor-shape-fill"
+                    d="M227.4,9.8c-0.2-0.1-4.5-1-9.5-1.2c-5-0.2-12.7,0.6-12.3,0.5c0.3-0.1,5.9-1.8,13.3-1.2	S227.6,9.9,227.4,9.8z">
+                </path>
+                <path class="elementor-shape-fill"
+                    d="M204.5,13.4c-0.1-0.1,2-1,3.2-1.1c1.2-0.1,2,0,2,0.3c0,0.3-0.1,0.5-1.6,0.4	C206.4,12.9,204.6,13.5,204.5,13.4z">
+                </path>
+                <path class="elementor-shape-fill"
+                    d="M201,10.6c0-0.1-4.4,1.2-6.3,2.2c-1.9,0.9-6.2,3.1-6.1,3.1c0.1,0.1,4.2-1.6,6.3-2.6	S201,10.7,201,10.6z">
+                </path>
+                <path class="elementor-shape-fill"
+                    d="M154.5,26.7c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C152.6,27.5,154.6,26.8,154.5,26.7z">
+                </path>
+                <path class="elementor-shape-fill"
+                    d="M41.9,19.3c0,0,1.2-0.3,2.9-0.1c1.7,0.2,5.8,0.9,8.2,0.7c4.2-0.4,7.4-2.7,7-2.6	c-0.4,0-4.3,2.2-8.6,1.9c-1.8-0.1-5.1-0.5-6.7-0.4S41.9,19.3,41.9,19.3z">
+                </path>
+                <path class="elementor-shape-fill"
+                    d="M75.5,12.6c0.2,0.1,2-0.8,4.3-1.1c2.3-0.2,2.1-0.3,2.1-0.5c0-0.1-1.8-0.4-3.4,0	C76.9,11.5,75.3,12.5,75.5,12.6z">
+                </path>
+                <path class="elementor-shape-fill"
+                    d="M15.6,13.2c0-0.1,4.3,0,6.7,0.5c2.4,0.5,5,1.9,5,2c0,0.1-2.7-0.8-5.1-1.4	C19.9,13.7,15.7,13.3,15.6,13.2z">
+                </path>
+            </svg>
+            <div class="[max-width:1200px] m-auto">
+                <div class="py-14">
+                    <h2 class="sm:text-3xl text-2xl font-bold text-center text-white">Our offering in game testing</h2>
+                </div>
+
+                <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-5 sm:gap-1 p-2">
+                    <div class="p-2">
+                        <div class="flex mb-3 items-center">
+                            <img src="./src/img/offering/Gui-Testing.png" class="h-10" alt="">
+                            <h3 class="ml-5 font-bold text-xl text-white">Gui Testing</h3>
+                        </div>
+                        <div class="text-md">
+                            <p>Will check if the user interface of the game is working as per requirement across various
+                                platforms and devices</p>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <div class="flex mb-3 items-center">
+                            <img src="./src/img/offering/Functionality-Testing.png" class="h-10" alt="">
+                            <h3 class="ml-5 font-bold text-xl text-white">Functionality Testing</h3>
+                        </div>
+                        <div class="text-md">
+                            <p>Experienced and expert testers check the functionalities of the game are as per the
+                                document.</p>
+                        </div>
+                    </div>
+                    <div class="p-2 ">
+                        <div class="flex mb-3 items-center">
+                            <img src="./src/img/offering/Security-testing.png" class="h-10" alt="">
+                            <h3 class="ml-5 font-bold text-xl text-white">Security Testing</h3>
+                        </div>
+                        <div class="text-md">
+                            <p>Make sure that all the proper measures has been installed to ensure data security of
+                                users and your game </p>
+                        </div>
+                    </div>
+                    <div class="p-2 ">
+                        <div class="flex mb-3 items-center">
+                            <img src="./src/img/offering/Console-Testing.png" class="h-10" alt="">
+                            <h3 class="ml-5 font-bold text-xl text-white">Console Testing</h3>
+                        </div>
+                        <div class="text-md">
+                            <p>Testing game across various console types such as intendo Switch, DS, 3DS, Wii, WiiU,
+                                Xbox360, PS3, PS4, Xbox One, PS4 Neo etc.</p>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <div class="flex mb-3 items-center">
+                            <img src="./src/img/offering/Online-Game-Testing.png" class="h-10" alt="">
+                            <h3 class="ml-5 font-bold text-xl text-white">Online Game Testing</h3>
+                        </div>
+                        <div class="text-md">
+                            <p>Assure smooth release and functioning of internet based game through our testing</p>
+                        </div>
+                    </div>
+                    <div class="p-2">
+                        <div class="flex mb-3 items-center">
+                            <img src="./src/img/offering/Compliance-Testing.png" class="h-10" alt="">
+                            <h3 class="ml-5 font-bold text-xl text-white">Compliance Testing</h3>
+                        </div>
+                        <div class="text-md">
+                            <p>Make sure that the game that your team has made is compliant to various regulations and
+                                standards practiced in the industry.</p>
+                        </div>
+                    </div>
+                    <div class="p-2 ">
+                        <div class="flex mb-3 items-center">
+                            <img src="./src/img/offering/Performance-Testing.png" class="h-10" alt="">
+                            <h3 class="ml-5 font-bold text-xl text-white">Performance Testing</h3>
+                        </div>
+                        <div class="text-md">
+                            <p>Ensure your GPU, CPU and servers used for smooth running of your game is working as its
+                                intended</p>
+                        </div>
+                    </div>
+                    <div class="p-2 ">
+                        <div class="flex mb-3 items-center">
+                            <img src="./src/img/offering/AR-VR-MR-Testing.png" class="h-10" alt="">
+                            <h3 class="ml-5 font-bold text-xl text-white">AR/VR/MR Testing</h3>
+                        </div>
+                        <div class="text-md">
+                            <p>Everyone knows that they are the next big thing when it comes to games. We have the
+                                platforms and resources to test such games so that stability and you can assure
+                                stability and high ux to users</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-center py-5 ">
+                    <button
+                        class="bg-orange-500 hover:text-orange-600 hover:bg-transparent border-2 border-orange-600 transition text-white text-semibold sm:my-0 my-2 px-8 py-2 ease-linear duration-500">Talk
+                        To Us</button>
+                    <button
+                        class="bg-orange-500 sm:my-0 my-2 hover:text-orange-600 hover:bg-transparent border-2 border-orange-600 transition text-white text-semibold duration-500 px-8 py-2 ">Call
+                        Now +9876543210</button>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-zinc-900 text-gray-200">
+            <div class="md:grid md:grid-cols-3 p-4">
+                <div class="relative hidden md:block">
+                    <!-- <img src="./src/img/bg0.png" class="absolute z-10 -left-40 " alt=""> -->
+                    <img src="./src/img/gt1_img.png" class="absolute z-20 -left-32 top-80 " alt="">
+                </div>
+
+                <div class="py-10 col-span-2 [max-width:800px]">
+                    <div>
+                        <h2 class="font-bold sm:text-3xl text-2xl text-center text-white py-10">Our secret sauce for
+                            functionality
+                            testing</h2>
+                    </div>
+                    <div class="grid md:grid-cols-3 sm:grid-cols-2 gap-5">
+                        <div
+                            class="bg-zinc-800 hover:bg-black hover:-translate-y-4 ease-linear duration-500  py-8 px-5">
+                            <img src="./src/img/functesting/Regression-Testing.png" alt="" class="h-10">
+                            <h3 class="font-bold text-xl my-2">Regression Testing</h3>
+                            <p>To counter check the game to see whether bugs fixed by the developers is actually fixed
+                                across the game</p>
+                        </div>
+
+                        <div class="bg-zinc-800 hover:bg-black hover:-translate-y-4 ease-linear duration-500 py-8 px-5">
+                            <img src="./src/img/functesting/Multi-player-Testing.png" alt="" class="h-10">
+                            <h3 class="font-bold text-xl my-2">Multi-player Testing
+                            </h3>
+                            Multiplayers games are gaining momentum like anything. If you have a multiplayer game we can
+                            test the multiplayer aspect of it
+                            </p>
+                        </div>
+
+                        <div class="bg-zinc-800 hover:bg-black hover:-translate-y-4 ease-linear duration-500 py-8 px-5">
+                            <img src="./src/img/functesting/Audio-Testing.png" alt="" class="h-10">
+                            <h3 class="font-bold text-xl my-2">Audio Testin</h3>
+                            <p>Audio has equal prominence as the visuals. So thorough checking of audio across
+                                throughout the game play is necessary.</p>
+                        </div>
+
+                        <div class="bg-zinc-800 hover:bg-black hover:-translate-y-4 ease-linear duration-500 py-8 px-5">
+                            <img src="./src/img/functesting/Graphics-(2D-and-3D).png" alt="" class="h-10">
+                            <h3 class="font-bold text-xl my-2">Graphics (2D and 3D)</h3>
+                            <p>We can check all the objects in the game along with frame rate across the game. .</p>
+                        </div>
+
+                        <div class="bg-zinc-800 hover:bg-black hover:-translate-y-4 ease-linear duration-500 py-8 px-5">
+                            <img src="./src/img/functesting/Graphics-(2D-and-3D).png" alt="" class="h-10">
+                            <h3 class="font-bold text-xl my-2">UI Testing
+                            </h3>
+                            <p>We can test the aesthetics, design rules have been strictly followed and it’s available
+                                for users to experience the game.</p>
+                        </div>
+
+
+                        <div class="bg-zinc-800 hover:bg-black hover:-translate-y-4 ease-linear duration-500 py-8 px-5">
+                            <img src="./src/img/functesting/Game-Balancing.png" alt="" class="h-10">
+                            <h3 class="font-bold text-xl my-2">Gaming Balancing
+                            </h3>
+                            <p>We play the game and check if all the levels of the game are in sync and users of
+                                particular level are enjoying only what’s allowed.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="industries" class="">
+            <div class="[max-width:1200px] m-auto py-20 px-4 z-20 relative">
+                <div class="flex ">
+                    <div class="md:block hidden rounded-md place-self-center justify-items-end">
+                        <div class="[max-width:400px] pt-5 px-5 rounded-md  border-4 border-white">
+                            <img src="./src/img/game_play_img.jpg"
+                                class="w-full relative bottom-10 rounded-md shadow-all-side " alt="">
+                        </div>
+                    </div>
+                    <div class="[max-width:650px] grow m-auto text-gray-200">
+                        <div>
+                            <h2 class="font-bold sm:text-3xl text-2xl text-center text-white">Why do we offer game play
+                                through
+                                testing?</h2>
+                        </div>
+                        <div class="grid sm:grid-cols-2 my-10 gap-3 ">
+                            <div class="flex flex-col  p-4 bg-zinc-800 opacity-70">
+                                <span class="text-gray-300  font-bold text-2xl">01</span>
+                                <p>Makes sure that the transition between levels of the game is correct</p>
+                            </div>
+                            <div class="flex flex-col bg-zinc-800 opacity-70 p-4">
+                                <span class="text-gray-300 font-bold text-2xl">02</span>
+                                <p>Ensures that the levels can be completed
+
+                                </p>
+                            </div>
+                            <div class="flex flex-col bg-zinc-800 opacity-70 p-4">
+                                <span class="text-gray-300 font-bold text-2xl">03</span>
+                                <p>To check story line of the game is working properly</p>
+                            </div>
+                            <div class="flex flex-col bg-zinc-800 opacity-70 p-4">
+                                <span class="text-gray-300 font-bold text-2xl">04</span>
+                                <p>Whether game flow has been maintained properly</p>
+                            </div>
+                            <div class="flex flex-col bg-zinc-800 opacity-70 p-4">
+                                <span class="text-gray-300 font-bold text-2xl">05</span>
+                                <p>Check the titles</p>
+                            </div>
+                            <div class="flex flex-col bg-zinc-800 opacity-70 p-4">
+                                <span class="text-gray-300 font-bold text-2xl">06</span>
+                                <p>Every treasures and rewards can be unlocked or not</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <aside class="advantage-div overflow-hidden relative">
+                <div class="md:grid md:grid-cols-2 items-center py-10 px-4 [max-width:1200px] m-auto ">
+                    <div class="md:block hidden z-10  place-self-center">
+                        <div class=" [width:420px] [height:200px] text-center p-5 rounded-md  border border-red-600">
+                            <img src="./src/img/game_play_img.jpg"
+                                class="[width:420px] [height:200px] shadow-all-side rounded-md [margin-top:-58px]"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="z-10 relative bg-indigo-500 p-4 text-gray-200 rounded-md shadow-lg shadow-black">
+                        <h2 class="text-3xl font-bold mb-5 text-white">Highlights of our services?</h2>
+                        <ul class=" circle-list px-5  rounded-md font-semibold">
+                            <li class="">Transparency in all the dealing</li>
+                            <li class="">Prompt reporting</li>
+                            <li class="">Dedicated communication expert for each project</li>
+                            <li class="">Dedicated SME’s in every project</li>
+                            <li class="">Top notch testing facility</li>
+                            <li class="">Testing strategies that we have developed are efficient and cost-effective</li>
+                            <li class="">Capability to carry out testing in variety of devices</li>
+                            <li class="">We take deadlines seriously</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </aside>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.5 27.8" preserveAspectRatio="none"
+                class=" relative rotate-180 z-40 ">
+                <path class="curv-svg2"
+                    d="M283.5,9.7c0,0-7.3,4.3-14,4.6c-6.8,0.3-12.6,0-20.9-1.5c-11.3-2-33.1-10.1-44.7-5.7	s-12.1,4.6-18,7.4c-6.6,3.2-20,9.6-36.6,9.3C131.6,23.5,99.5,7.2,86.3,8c-1.4,0.1-6.6,0.8-10.5,2c-3.8,1.2-9.4,3.8-17,4.7	c-3.2,0.4-8.3,1.1-14.2,0.9c-1.5-0.1-6.3-0.4-12-1.6c-5.7-1.2-11-3.1-15.8-3.7C6.5,9.2,0,10.8,0,10.8V0h283.5V9.7z M260.8,11.3	c-0.7-1-2-0.4-4.3-0.4c-2.3,0-6.1-1.2-5.8-1.1c0.3,0.1,3.1,1.5,6,1.9C259.7,12.2,261.4,12.3,260.8,11.3z M242.4,8.6	c0,0-2.4-0.2-5.6-0.9c-3.2-0.8-10.3-2.8-15.1-3.5c-8.2-1.1-15.8,0-15.1,0.1c0.8,0.1,9.6-0.6,17.6,1.1c3.3,0.7,9.3,2.2,12.4,2.7	C239.9,8.7,242.4,8.6,242.4,8.6z M185.2,8.5c1.7-0.7-13.3,4.7-18.5,6.1c-2.1,0.6-6.2,1.6-10,2c-3.9,0.4-8.9,0.4-8.8,0.5	c0,0.2,5.8,0.8,11.2,0c5.4-0.8,5.2-1.1,7.6-1.6C170.5,14.7,183.5,9.2,185.2,8.5z M199.1,6.9c0.2,0-0.8-0.4-4.8,1.1	c-4,1.5-6.7,3.5-6.9,3.7c-0.2,0.1,3.5-1.8,6.6-3C197,7.5,199,6.9,199.1,6.9z M283,6c-0.1,0.1-1.9,1.1-4.8,2.5s-6.9,2.8-6.7,2.7	c0.2,0,3.5-0.6,7.4-2.5C282.8,6.8,283.1,5.9,283,6z M31.3,11.6c0.1-0.2-1.9-0.2-4.5-1.2s-5.4-1.6-7.8-2C15,7.6,7.3,8.5,7.7,8.6	C8,8.7,15.9,8.3,20.2,9.3c2.2,0.5,2.4,0.5,5.7,1.6S31.2,11.9,31.3,11.6z M73,9.2c0.4-0.1,3.5-1.6,8.4-2.6c4.9-1.1,8.9-0.5,8.9-0.8	c0-0.3-1-0.9-6.2-0.3S72.6,9.3,73,9.2z M71.6,6.7C71.8,6.8,75,5.4,77.3,5c2.3-0.3,1.9-0.5,1.9-0.6c0-0.1-1.1-0.2-2.7,0.2	C74.8,5.1,71.4,6.6,71.6,6.7z M93.6,4.4c0.1,0.2,3.5,0.8,5.6,1.8c2.1,1,1.8,0.6,1.9,0.5c0.1-0.1-0.8-0.8-2.4-1.3	C97.1,4.8,93.5,4.2,93.6,4.4z M65.4,11.1c-0.1,0.3,0.3,0.5,1.9-0.2s2.6-1.3,2.2-1.2s-0.9,0.4-2.5,0.8C65.3,10.9,65.5,10.8,65.4,11.1	z M34.5,12.4c-0.2,0,2.1,0.8,3.3,0.9c1.2,0.1,2,0.1,2-0.2c0-0.3-0.1-0.5-1.6-0.4C36.6,12.8,34.7,12.4,34.5,12.4z M152.2,21.1	c-0.1,0.1-2.4-0.3-7.5-0.3c-5,0-13.6-2.4-17.2-3.5c-3.6-1.1,10,3.9,16.5,4.1C150.5,21.6,152.3,21,152.2,21.1z">
+                </path>
+                <path class="curv-svg2"
+                    d="M269.6,18c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C267.7,18.8,269.7,18,269.6,18z">
+                </path>
+                <path class="curv-svg2"
+                    d="M227.4,9.8c-0.2-0.1-4.5-1-9.5-1.2c-5-0.2-12.7,0.6-12.3,0.5c0.3-0.1,5.9-1.8,13.3-1.2	S227.6,9.9,227.4,9.8z">
+                </path>
+                <path class="curv-svg2"
+                    d="M204.5,13.4c-0.1-0.1,2-1,3.2-1.1c1.2-0.1,2,0,2,0.3c0,0.3-0.1,0.5-1.6,0.4	C206.4,12.9,204.6,13.5,204.5,13.4z">
+                </path>
+                <path class="curv-svg2"
+                    d="M201,10.6c0-0.1-4.4,1.2-6.3,2.2c-1.9,0.9-6.2,3.1-6.1,3.1c0.1,0.1,4.2-1.6,6.3-2.6	S201,10.7,201,10.6z">
+                </path>
+                <path class="curv-svg2"
+                    d="M154.5,26.7c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C152.6,27.5,154.6,26.8,154.5,26.7z">
+                </path>
+                <path class="curv-svg2"
+                    d="M41.9,19.3c0,0,1.2-0.3,2.9-0.1c1.7,0.2,5.8,0.9,8.2,0.7c4.2-0.4,7.4-2.7,7-2.6	c-0.4,0-4.3,2.2-8.6,1.9c-1.8-0.1-5.1-0.5-6.7-0.4S41.9,19.3,41.9,19.3z">
+                </path>
+                <path class="curv-svg2"
+                    d="M75.5,12.6c0.2,0.1,2-0.8,4.3-1.1c2.3-0.2,2.1-0.3,2.1-0.5c0-0.1-1.8-0.4-3.4,0	C76.9,11.5,75.3,12.5,75.5,12.6z">
+                </path>
+                <path class="curv-svg2"
+                    d="M15.6,13.2c0-0.1,4.3,0,6.7,0.5c2.4,0.5,5,1.9,5,2c0,0.1-2.7-0.8-5.1-1.4	C19.9,13.7,15.7,13.3,15.6,13.2z">
+                </path>
+            </svg>
+        </section>
+
+
+
+        <section id="proccess" class="bg-gradient-to-b from-indigo-500 to-zinc-900 pt-20 pb-0">
+
+            <div class="[max-width:1200px] gap-5 grid md:grid-cols-2 m-auto p-10 px-4">
+                <div class=m-auto">
+                    <div class="text-start text-gray-200">
+                        <h3 class="font-bold text-3xl mb-5 text-white">Benefits of our automated game testing</h3>
+                        <p>Our team can make sure that the monetization strategy of a game works well for our clients
+                            without any defective barriers during the working of the game in present or future. Starting
+                            from the idea to the end of the prototype, various testing mechanism like functional
+                            testing, performance testing, regression testing etc. are done.</p>
+                    </div>
+                </div>
+                <div class="">
+                    <ul class="grid grid-cols-3 w-full my-4 md:my-0 ">
+                        <li class="bg-white font-bold flex flex-col text-center gap-2 border  ">
+                            <img src="./src/img/benefits/Accelerated-results.png" class="h-10 w-10 m-auto" alt="">
+                            <h4>Accelerated <br> results</h4>
+                        </li>
+                        <li class="bg-white font-bold flex flex-col text-center border  gap-2 p-5 shadow-sm">
+                            <img src="./src/img/benefits/Reduced-expenses.png" class="h-10 w-10 m-auto" alt="">
+                            <h4>Reduced <br>
+                                expenses</h4>
+                        </li>
+                        <li class="bg-white font-bold flex flex-col text-center border  gap-2 p-5 shadow-sm">
+                            <img src="./src/img/benefits/Faster-feedback.png" class="h-10 w-10 m-auto" alt="">
+                            <h4>Faster <br>
+                                feedback</h4>
+                        </li>
+                        <li class="bg-white font-bold flex flex-col text-center border  gap-2 p-5 shadow-sm">
+                            <img src="./src/img/benefits/High-efficiency.png" class="h-10  w-10 m-auto" alt="">
+                            <h4>High <br>
+                                efficiency</h4>
+                        </li>
+                        <li class="bg-white font-bold flex flex-col text-center border  gap-2 p-5 shadow-sm">
+                            <img src="./src/img/benefits/Earlier-bug-detection.png" class="h-10  w-10 m-auto" alt="">
+                            <h4>Earlier <br>
+                                bug detection</h4>
+                        </li>
+                        <li class="bg-white font-bold flex flex-col text-center border  gap-2 p-5 shadow-sm">
+                            <img src="./src/img/benefits/High-test-rate-and-coverage.png" class="h-10 w-10 m-auto"
+                                alt="">
+                            <h4>High test <br>
+                                rate and coverage</h4>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.5 27.8" preserveAspectRatio="none"
+                class=" relative rotate-180 z-40 ">
+                <path class="curv-svg3"
+                    d="M283.5,9.7c0,0-7.3,4.3-14,4.6c-6.8,0.3-12.6,0-20.9-1.5c-11.3-2-33.1-10.1-44.7-5.7	s-12.1,4.6-18,7.4c-6.6,3.2-20,9.6-36.6,9.3C131.6,23.5,99.5,7.2,86.3,8c-1.4,0.1-6.6,0.8-10.5,2c-3.8,1.2-9.4,3.8-17,4.7	c-3.2,0.4-8.3,1.1-14.2,0.9c-1.5-0.1-6.3-0.4-12-1.6c-5.7-1.2-11-3.1-15.8-3.7C6.5,9.2,0,10.8,0,10.8V0h283.5V9.7z M260.8,11.3	c-0.7-1-2-0.4-4.3-0.4c-2.3,0-6.1-1.2-5.8-1.1c0.3,0.1,3.1,1.5,6,1.9C259.7,12.2,261.4,12.3,260.8,11.3z M242.4,8.6	c0,0-2.4-0.2-5.6-0.9c-3.2-0.8-10.3-2.8-15.1-3.5c-8.2-1.1-15.8,0-15.1,0.1c0.8,0.1,9.6-0.6,17.6,1.1c3.3,0.7,9.3,2.2,12.4,2.7	C239.9,8.7,242.4,8.6,242.4,8.6z M185.2,8.5c1.7-0.7-13.3,4.7-18.5,6.1c-2.1,0.6-6.2,1.6-10,2c-3.9,0.4-8.9,0.4-8.8,0.5	c0,0.2,5.8,0.8,11.2,0c5.4-0.8,5.2-1.1,7.6-1.6C170.5,14.7,183.5,9.2,185.2,8.5z M199.1,6.9c0.2,0-0.8-0.4-4.8,1.1	c-4,1.5-6.7,3.5-6.9,3.7c-0.2,0.1,3.5-1.8,6.6-3C197,7.5,199,6.9,199.1,6.9z M283,6c-0.1,0.1-1.9,1.1-4.8,2.5s-6.9,2.8-6.7,2.7	c0.2,0,3.5-0.6,7.4-2.5C282.8,6.8,283.1,5.9,283,6z M31.3,11.6c0.1-0.2-1.9-0.2-4.5-1.2s-5.4-1.6-7.8-2C15,7.6,7.3,8.5,7.7,8.6	C8,8.7,15.9,8.3,20.2,9.3c2.2,0.5,2.4,0.5,5.7,1.6S31.2,11.9,31.3,11.6z M73,9.2c0.4-0.1,3.5-1.6,8.4-2.6c4.9-1.1,8.9-0.5,8.9-0.8	c0-0.3-1-0.9-6.2-0.3S72.6,9.3,73,9.2z M71.6,6.7C71.8,6.8,75,5.4,77.3,5c2.3-0.3,1.9-0.5,1.9-0.6c0-0.1-1.1-0.2-2.7,0.2	C74.8,5.1,71.4,6.6,71.6,6.7z M93.6,4.4c0.1,0.2,3.5,0.8,5.6,1.8c2.1,1,1.8,0.6,1.9,0.5c0.1-0.1-0.8-0.8-2.4-1.3	C97.1,4.8,93.5,4.2,93.6,4.4z M65.4,11.1c-0.1,0.3,0.3,0.5,1.9-0.2s2.6-1.3,2.2-1.2s-0.9,0.4-2.5,0.8C65.3,10.9,65.5,10.8,65.4,11.1	z M34.5,12.4c-0.2,0,2.1,0.8,3.3,0.9c1.2,0.1,2,0.1,2-0.2c0-0.3-0.1-0.5-1.6-0.4C36.6,12.8,34.7,12.4,34.5,12.4z M152.2,21.1	c-0.1,0.1-2.4-0.3-7.5-0.3c-5,0-13.6-2.4-17.2-3.5c-3.6-1.1,10,3.9,16.5,4.1C150.5,21.6,152.3,21,152.2,21.1z">
+                </path>
+                <path class="curv-svg3"
+                    d="M269.6,18c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C267.7,18.8,269.7,18,269.6,18z">
+                </path>
+                <path class="curv-svg3"
+                    d="M227.4,9.8c-0.2-0.1-4.5-1-9.5-1.2c-5-0.2-12.7,0.6-12.3,0.5c0.3-0.1,5.9-1.8,13.3-1.2	S227.6,9.9,227.4,9.8z">
+                </path>
+                <path class="curv-svg3"
+                    d="M204.5,13.4c-0.1-0.1,2-1,3.2-1.1c1.2-0.1,2,0,2,0.3c0,0.3-0.1,0.5-1.6,0.4	C206.4,12.9,204.6,13.5,204.5,13.4z">
+                </path>
+                <path class="curv-svg3"
+                    d="M201,10.6c0-0.1-4.4,1.2-6.3,2.2c-1.9,0.9-6.2,3.1-6.1,3.1c0.1,0.1,4.2-1.6,6.3-2.6	S201,10.7,201,10.6z">
+                </path>
+                <path class="curv-svg3"
+                    d="M154.5,26.7c-0.1-0.1-4.6,0.3-7.2,0c-7.3-0.7-17-3.2-16.6-2.9c0.4,0.3,13.7,3.1,17,3.3	C152.6,27.5,154.6,26.8,154.5,26.7z">
+                </path>
+                <path class="curv-svg3"
+                    d="M41.9,19.3c0,0,1.2-0.3,2.9-0.1c1.7,0.2,5.8,0.9,8.2,0.7c4.2-0.4,7.4-2.7,7-2.6	c-0.4,0-4.3,2.2-8.6,1.9c-1.8-0.1-5.1-0.5-6.7-0.4S41.9,19.3,41.9,19.3z">
+                </path>
+                <path class="curv-svg3"
+                    d="M75.5,12.6c0.2,0.1,2-0.8,4.3-1.1c2.3-0.2,2.1-0.3,2.1-0.5c0-0.1-1.8-0.4-3.4,0	C76.9,11.5,75.3,12.5,75.5,12.6z">
+                </path>
+                <path class="curv-svg"
+                    d="M15.6,13.2c0-0.1,4.3,0,6.7,0.5c2.4,0.5,5,1.9,5,2c0,0.1-2.7-0.8-5.1-1.4	C19.9,13.7,15.7,13.3,15.6,13.2z">
+                </path>
+            </svg>
+        </section>
+        <section class="text-gray-200 text-xl bg-gradient-to-b from-zinc-900 to-zinc-900">
+            <div class="py-20 px-4">
+                <h2 class="text-4xl font-bold text-center text-white">How we work</h2>
+
+                <div class="text-gray-200 body-font [max-width:1200px] m-auto">
+                    <div class="container px-5 py-16 mx-auto flex flex-wrap">
+                        <div class="flex flex-wrap w-full items-center">
+                            <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
+                                <div class="flex relative pb-12">
+                                    <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                                        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                                    </div>
+                                    <div
+                                        class="flex-shrink-0 w-10 h-10 rounded-full bg-green-500 inline-flex items-center justify-center text-white relative z-10">
+                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                                            viewBox="0 0 24 24">
+                                            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="flex-grow p-4 ml-2 rounded-md shadow-all-side">
+                                        <h2 class="font-bold text-xl text-white mb-1 tracking-wider">
+                                            STEP 1</h2>
+                                        <p class="leading-relaxed">Contact us through email or give us a ring we will
+                                            get back to you and discuss regarding the project..</p>
+                                    </div>
+                                </div>
+                                <div class="flex relative pb-12">
+                                    <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                                        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                                    </div>
+                                    <div
+                                        class="flex-shrink-0 w-10 h-10 rounded-full bg-orange-500 inline-flex items-center justify-center text-white relative z-10">
+                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                                            viewBox="0 0 24 24">
+                                            <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="flex-grow p-4 ml-2 rounded-md shadow-all-side">
+                                        <h2 class="font-bold  text-xl text-white mb-1 tracking-wider">
+                                            STEP 2</h2>
+                                        <p class="leading-relaxed">We will review the all the documents about your game
+                                            and will get back to you with a mutually beneficial proposition.</p>
+                                    </div>
+                                </div>
+                                <div class="flex relative pb-12">
+                                    <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                                        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                                    </div>
+                                    <div
+                                        class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-500 inline-flex items-center justify-center text-white relative z-10">
+                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                                            viewBox="0 0 24 24">
+                                            <circle cx="12" cy="5" r="3"></circle>
+                                            <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="flex-grow p-4 ml-2 rounded-md shadow-all-side">
+                                        <h2 class="font-bold  text-xl text-white mb-1 tracking-wider">
+                                            STEP 3</h2>
+                                        <p class="leading-relaxed">Once you agree with the proposal further arrangements
+                                            for testing will be done</p>
+                                    </div>
+                                </div>
+                                <div class="flex relative pb-12">
+                                    <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                                        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                                    </div>
+                                    <div
+                                        class="flex-shrink-0 w-10 h-10 rounded-full bg-green-500 inline-flex items-center justify-center text-white relative z-10">
+                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                                            viewBox="0 0 24 24">
+                                            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                                            <circle cx="12" cy="7" r="4"></circle>
+                                        </svg>
+                                    </div>
+                                    <div class="flex-grow p-4 ml-2 shadow-all-side rounded-md">
+                                        <h2 class="font-bold text-xl text-white mb-1 tracking-wider">
+                                            STEP 4</h2>
+                                        <p class="leading-relaxed">To avoid teething issue we will conduct a dry run</p>
+                                    </div>
+                                </div>
+                                <div class="flex relative pb-12">
+                                    <div class="h-full w-10 absolute inset-0 flex items-center justify-center">
+                                        <div class="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                                    </div>
+                                    <div
+                                        class="flex-shrink-0 w-10 h-10 rounded-full bg-orange-500 inline-flex items-center justify-center text-white relative z-10">
+                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                                            viewBox="0 0 24 24">
+                                            <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
+                                            <circle cx="12" cy="7" r="4"></circle>
+                                        </svg>
+                                    </div>
+                                    <div class="flex-grow p-4 ml-2 shadow-all-side rounded-md">
+                                        <h2 class="font-bold text-xl text-white mb-1 tracking-wider">
+                                            STEP 5</h2>
+                                        <p class="leading-relaxed">Rigorous testing will be done at this phase to remove
+                                            all the deadly bugs</p>
+                                    </div>
+                                </div>
+                                <div class="flex relative">
+                                    <div
+                                        class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-500 inline-flex items-center justify-center text-white relative z-10">
+                                        <svg fill="none" stroke="currentColor" stroke-linecap="round"
+                                            stroke-linejoin="round" stroke-width="2" class="w-5 h-5"
+                                            viewBox="0 0 24 24">
+                                            <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
+                                            <path d="M22 4L12 14.01l-3-3"></path>
+                                        </svg>
+                                    </div>
+                                    <div class="flex-grow p-4 ml-2 shadow-all-side rounded-md">
+                                        <h2 class="font-bold  text-xl text-white mb-1 tracking-wider">
+                                            STEP 6</h2>
+                                        <p class="leading-relaxed">Test report will be delivered to you so that you can
+                                            fix the software. Once it’s fixed we will check the game again.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <img class="lg:w-3/5 md:w-1/2 object-contain object-center rounded-lg md:mt-0 mt-12"
+                                src="/src/img/servicesVideo.webm" alt="step"> -->
+                            <div class="lg:w-3/5 md:w-1/2 rounded-lg md:mt-0 mt-12">
+                                <video autoplay loop>
+                                    <source src="./src/img/servicesVideo.webm" type="video/mp4">
+                                    Your browser does not support HTML video.
+                                </video>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="contact" class="py-20 bg-gray-100">
+            <div class="[max-width:1200px] m-auto">
+                <div class="py-10">
+                    <h2 class="font-bold text-3xl text-center text-indigo-600">Cotact Us</h2>
+                </div>
+
+                <div class="mdsm:grid grid-cols-3 p-4 flex flex-col-reverse">
+                    <div
+                        class="bg-indigo-700  text-gray-100 md:p-8 p-4 mdsm:rounded-tl-lg rounded-bl-lg rounded-br-lg mdsm:rounded-br-none">
+                        <div>
+                            <h2 class="font-bold text-2xl">Contact Information</h2>
+                            <p>Fill up the form and our Team will get back to you within 24 hours</p>
+
+                        </div>
+                        <div class="py-10">
+                            <table>
+                                <tr>
+                                    <td class="px-2 py-4"><i class="fa-solid fa-phone"></i></td>
+                                    <td class="px-2 py-4">+916376426677</td>
+                                </tr>
+
+                                <tr>
+                                    <td class="px-2 py-4"><i class="fa-solid fa-envelope"></i></td>
+                                    <td class="px-2 py-4">s7hyam28@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <td class="px-2 py-4"><i class="fa-solid fa-location-dot"></i></td>
+                                    <td class="px-2 py-4">Kalas road, Vishrantwadi, Pune, Maharashtra-411015</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div>
+                            <div>
+                                <a href="#"> <i class="fa-brands hover:text-blue-500 mx-2 text-xl fa-twitter"></i></a>
+                                <a href="#"> <i class="fa-brands hover:text-blue-600 mx-2 text-xl fa-facebook"></i></a>
+                                <a href="#"> <i class="fa-brands hover:text-blue-900  mx-2 text-xl fa-linkedin"></i></a>
+                                <a href="#"> <i class="fa-brands mx-2 hover:text-pink-500 text-xl fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div
+                        class="col-span-2 bg-white rounded-tr-lg mdsm:rounded-br-lg rounded-tl-lg mdsm:rounded-tl-none ">
+                        <form action="#" class="grid grid-cols-2 md:p-8 p-2 rounded-tl-none">
+                            <div class="mb-3 p-4">
+                                <label for="firstName" class="text-indigo-600">First Name</label> <br>
+                                <input type="text" name="firstName"
+                                    class="text-gray-400 w-full border-b-2 border-gray-500 rounded-none outline-0"
+                                    id="firstName" placeholder="Shyam">
+                            </div>
+                            <div class="mb-3 p-4">
+                                <label for="lastName" class="text-indigo-600">Last Name</label> <br>
+                                <input type="text"
+                                    class="text-gray-400 w-full border-b-2 border-gray-500 rounded-none outline-none"
+                                    name="lastName" id="lastname" placeholder="Choudhary">
+                            </div>
+
+                            <div class="mb-3 p-4">
+                                <label for="mail" class="text-indigo-600">Email</label> <br>
+                                <input type="text" name="email" id="email" placeholder="Email"
+                                    class="text-gray-400 w-full border-b-2 border-gray-500 rounded-none outline-none" />
+                            </div>
+
+                            <div class="mb-3 p-4">
+                                <label for="phoneNumber" class="text-indigo-600">Number</label> <br>
+                                <input type="tel" name="number" id="number" placeholder="+91 6376426677"
+                                    class="text-gray-400 w-full border-b-2 border-gray-500 rounded-none outline-none">
+                            </div>
+                            <div class=" p-4 col-span-2">
+                                <label for="message" class="text-indigo-600">Message</label> <br>
+                                <textarea name="message" id="message" cols="" rows="5"
+                                    placeholder="Write your message.."
+                                    class="text-gray-400 w-full border-b-2 border-gray-500 rounded-none outline-none"></textarea>
+                            </div>
+                            <div class="p-4 ">
+                                <button
+                                    class="bg-indigo-700 border-2 border-indigo-700 hover:bg-transparent hover:text-indigo-700 px-10 py-2 text-white font-semibold">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+        <footer class="bg-black text-white ">
+            <div class="[max-width:1200px] m-auto ">
+                <div class="p-4 gap-4 grid lg:grid-cols-4 sm:grid-cols-2 ">
+                    <div class="flex flex-col text-start my-4">
+                        <h2 class="mb-1 text-xl text-orange-500">Overview</h2>
+                        <ul class="flex flex-col text-gray-400">
+                            <li class="list-disc ml-5  text-lg hover:text-orange-500"><a href="#hero">Home</a></li>
+                            <li class="list-disc ml-5  text-lg hover:text-orange-500"><a href="#services">Services</a>
+                            </li>
+                            <li class="list-disc ml-5  text-lg hover:text-orange-500"><a
+                                    href="#industries">Industries</a>
+                            </li>
+                            <li class="list-disc ml-5  text-lg hover:text-orange-500"><a href="#proccess">Proccess</a>
+                            </li>
+                            <li class="list-disc ml-5  text-lg hover:text-orange-500"><a href="#">Our App</a></li>
+                            <li class="list-disc ml-5  text-lg hover:text-orange-500 "><a href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="flex flex-col text-start my-4">
+                        <h2 class="mb-1 text-xl text-orange-500">Legal</h2>
+                        <ul class="flex flex-col text-gray-400">
+                            <li class="list-disc ml-5  text-lg hover:text-orange-500"><a href="#hero">FAQ</a></li>
+                            <li class="list-disc ml-5  text-lg hover:text-orange-500"><a href="#services">Privacy
+                                    Policy</a></li>
+                            <li class="list-disc ml-5  text-lg hover:text-orange-500"><a href="#industries">Terms and
+                                    Conditions</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="my-4">
+                        <div class="flex gap-4 flex-col">
+                            <label for="SubscribeEmailList"
+                                class="font-semibold text-xl text-orange-500 mb-2">Subscribe</label>
+                            <input class="bg-black border  border-orange-orange" type="email" name="SubscribeEmailList"
+                                id="SubscribeEmailList" placeholder="EMail">
+                            <button class="py-2 px-5 bg-orange-500 text-white w-32 font-semibold">SUBSCRIBE</button>
+                        </div>
+                        <div>
+                            <div class="mt-3">
+                                <a href="#"> <i class="fa-brands hover:text-blue-500 mx-2 text-xl fa-twitter"></i></a>
+                                <a href="#"> <i class="fa-brands hover:text-blue-600 mx-2 text-xl fa-facebook"></i></a>
+                                <a href="#"> <i class="fa-brands hover:text-blue-900  mx-2 text-xl fa-linkedin"></i></a>
+                                <a href="#"> <i class="fa-brands mx-2 hover:text-pink-500 text-xl fa-instagram"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="[max-width:300px] sm:m-auto">
+                        <table>
+                            <tr>
+                                <td class="px-2 py-4"> <i class="fa-solid fa-house"></i> </td>
+                                <td class="px-2 py-4">Kalas road, Vishrantwadi,
+                                    Pune, Maharashtra-411015</td>
+                            </tr>
+                            <tr>
+                                <td class="px-2 py-4"><i class="fa-solid fa-envelope"></i></td>
+                                <td class="px-2 py-4">s7hyam28@gmail.com</td>
+                            </tr>
+                            <tr>
+                                <td class="px-2 py-4"><i class="fa-solid fa-phone"></i></td>
+                                <td class="px-2 py-4">+91 9876543210</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex justify-between p-2">
+                        <a href="#hero" class="text-2xl font-bold h-10 text-orange-500">MrGamer</a>
+                        <p class="text-gray-400">Copyright © 2020 | Digital Marketing by Jointviews</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+
+        <script src="./src/app.js"></script>
+    </body>
+
+
+</html>
